@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff url('./img/bridge.jpg') no-repeat center/cover
+    ;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-left: -2%;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    position: relative;
+    transform: scale(1);
+}
+
+.gradient-circle {/*change liner to conic*/
+    background:linear-gradient(
+        #499429,
+        #499429,
+        #916923,
+        #916923,
+        #33989c,
+        #33989c 
+    );
+    position: absolute;
+    height: 320px;
+    width: 320px;
+    top: -10px;
+    left: -10px;
+    z-index: -2;
+    border-radius: 50%;
+}
+
+.circle {
+    background-color: darkslategrey;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.pointer-container { 
+    position: absolute;
+    top: -40px;
+    left: 140px;
+    width: 20px;
+    height: 190px;
+    animation: rotateit 8s linear forwards infinite;
+    transform-origin: bottom center;
+}
+
+.pointer  {
+    background-color: ghostwhite;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.grow{
+    animation: grow 3s linear forwards;
+}
+
+.shrink{
+    animation: shrink 3s linear forwards;
+}
+
+
+@keyframes rotateit  {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+
+@keyframes grow  {
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(1.2)
+    }
+}
+
+
+@keyframes shrink  {
+    from {
+        transform: scale(1.2)
+    }
+    to {
+        transform: scale(1)
+    }
+}
