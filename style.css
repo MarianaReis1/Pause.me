@@ -27,7 +27,7 @@ body {
 }
 
 .gradient-circle {/*change liner to conic*/
-    background:linear-gradient(
+    background:conic-gradient(
         #499429,
         #499429,
         #916923,
