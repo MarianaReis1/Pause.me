@@ -41,7 +41,7 @@ body {
     color: #499429;
 }
 
-.gradient-circle {/*change liner to conic*/
+/* .gradient-circle {/*change liner to conic*/
     background: conic-gradient(
         #499429 0%,
         #499429 40%,
@@ -56,7 +56,7 @@ body {
     width: 160px;
     z-index: -2;
     border-radius: 50%;
-}
+} */
 
 .circle {
     background-color: whitesmoke;
@@ -74,7 +74,8 @@ body {
     left: 65px;
     width: 20px;
     height: 105px;
-    animation: rotateit 8s linear forwards 5s infinite;
+    animation: rotateit 8s linear forwards infinite;
+    animation-delay: 3s;
     transform-origin: bottom center;
 }
 
