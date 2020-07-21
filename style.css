@@ -12,7 +12,7 @@ body {
 #video {
     position: fixed;
     min-height: 100vh;
-    
+    object-fit: cover;
 }
 
 #logo {
@@ -88,10 +88,12 @@ body {
 
 .grow{
     animation: grow 3s linear forwards;
+    animation-delay: 3s;
 }
 
 .shrink{
     animation: shrink 3s linear forwards;
+    animation-delay: 3s;
 }
 
 
