@@ -23,4 +23,4 @@ function breatheAnimation (){
 setInterval(breatheAnimation, totalTime)
 
 
-window.onclick = breatheAnimation();
+window.onload = breatheAnimation();
