@@ -75,7 +75,7 @@ body {
     width: 20px;
     height: 105px;
     animation: rotateit 8s linear forwards infinite;
-    animation-delay: 3s;
+    animation-delay: 10s;
     transform-origin: bottom center;
 }
 
@@ -88,12 +88,12 @@ body {
 
 .grow{
     animation: grow 3s linear forwards;
-    animation-delay: 3s;
+    animation-delay: 10s;
 }
 
 .shrink{
     animation: shrink 3s linear forwards;
-    animation-delay: 3s;
+    animation-delay: 10s;
 }
 
 
