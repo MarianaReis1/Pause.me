@@ -42,7 +42,7 @@ body {
 }
 
 .gradient-circle {/*change liner to conic*/
-    background: liner-gradient(
+    background: conic-gradient(
         #499429 0%,
         #499429 40%,
         #916923 40%,
@@ -74,7 +74,7 @@ body {
     left: 65px;
     width: 20px;
     height: 105px;
-    animation: rotateit 8s linear forwards infinite;
+    animation: rotateit 8s linear forwards 5s infinite;
     transform-origin: bottom center;
 }
 
