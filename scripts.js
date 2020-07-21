@@ -4,7 +4,7 @@ const totalTime = 8000;
 const breathTime = (totalTime / 5) * 2;
 const holdTime = totalTime / 5;
 
-breatheAnimation();
+window.onload = breatheAnimation();
 
 function breatheAnimation (){
     text.innerHTML = 'Breath In';
