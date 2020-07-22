@@ -1,10 +1,15 @@
 const container = document.querySelector('.container');
+const pointer = document.querySelector('.pointer-container');
 const text = document.querySelector('#text');
 const totalTime = 8000;
 const breathTime = (totalTime / 5) * 2;
 const holdTime = totalTime / 5;
 
-breatheAnimation();
+function start () {
+    console.log("start pressed")
+    pointer.className = 'pointer-container pointer-animation';
+    return breatheAnimation();
+}
 
 function breatheAnimation (){
     text.innerHTML = 'Breath In';
@@ -18,6 +23,9 @@ function breatheAnimation (){
             container.className = 'container shrink';
         }, holdTime)
     }, breathTime)
+
+    setInterval(breatheAnimation, totalTime);
 }
 
-setInterval(breatheAnimation, totalTime)
+
+
