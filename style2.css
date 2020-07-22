@@ -3,11 +3,6 @@
         font-size: 13px;
         overflow: hidden;
     }
-
-    #video {
-        position: fixed;
-        min-height: 120vh;
-    }
    
     #logo {
         position: relative;
@@ -32,23 +27,6 @@
         transform: scale(1);
         font-size: 1.5rem;
         color: #499429;
-    }
-    
-    .gradient-circle {/*change liner to conic*/
-        background:conic-gradient(
-            #499429 0%,
-            #499429 40%,
-            #916923 40%,
-            #916923 60%,
-            #33989c 60%,
-            #33989c 100% 
-        );
-        opacity: 0.8;
-        position: absolute;
-        height: 320px;
-        width: 320px;
-        z-index: -2;
-        border-radius: 50%;
     }
     
     .circle {

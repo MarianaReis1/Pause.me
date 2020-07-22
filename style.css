@@ -6,13 +6,15 @@ body {
     overflow: hidden;
     margin: auto;
     font-size: 10px;
-    font-family: sans-serif;
+    font-family: 'Varela Round', sans-serif;;
 }
 
 #video {
-    position: fixed;
+    position: absolute;
+    object-fit: fill;
+    min-width: 100vw;
     min-height: 100vh;
-    object-fit: cover;
+    z-index: -2;
 }
 
 #logo {
@@ -37,11 +39,11 @@ body {
     height: 150px;
     width: 150px;
     transform: scale(1);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: #499429;
 }
 
-/* .gradient-circle {/*change liner to conic*/
+/* .gradient-circle {
     background: conic-gradient(
         #499429 0%,
         #499429 40%,
