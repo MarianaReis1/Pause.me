@@ -76,6 +76,9 @@ body {
     left: 65px;
     width: 20px;
     height: 105px;
+}
+
+.pointerAnimation {
     animation: rotateit 8s linear forwards infinite;
     transform-origin: bottom center;
 }

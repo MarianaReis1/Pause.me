@@ -1,8 +1,4 @@
 @media all and (min-width: 770px){
-    body {
-        font-size: 13px;
-        overflow: hidden;
-    }
    
     #logo {
         position: relative;
@@ -25,7 +21,7 @@
         height: 300px;
         width: 300px;
         transform: scale(1);
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         color: #499429;
     }
     
