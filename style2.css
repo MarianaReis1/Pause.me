@@ -40,7 +40,5 @@
         left: 137.5px;
         width: 20px;
         height: 190px;
-        animation: rotateit 8s linear forwards infinite;
-        transform-origin: bottom center;
     }
 }
