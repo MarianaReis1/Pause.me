@@ -1,7 +1,6 @@
 const container = document.querySelector('.container');
 const pointer = document.querySelector('.pointer-container');
 const text = document.querySelector('#text');
-const video = document.getElementById('#video');
 const totalTime = 8000;
 const breathTime = (totalTime / 5) * 2;
 const holdTime = totalTime / 5;
